@@ -2,7 +2,7 @@ import knex from "../../configuration/dataSource";
 import InfoEntity from "../../modules/entity/InfoEntity";
 import PageImpl from "../../modules/response/PageImpl";
 import InfoRepository from "../InfoRepository";
-import data from "./table";
+import data from "../../resource/table";
 
 const TABLE_NAME = "info";
 
